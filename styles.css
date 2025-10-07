@@ -1,0 +1,97 @@
+/* 
+Windows 98 colors:
+#818181 - dark gray
+#c3c3c3 - light gray
+#fdffff - white
+#010081 - dark blue
+#008080 - teal
+*/
+
+html {
+    height: 100%;
+    border-top: 4px solid #c3c3c3;
+    border-left: 4px solid #c3c3c3;
+    border-bottom: 4px solid #818181;
+    border-right: 4px solid #818181;
+    box-sizing: border-box;
+    box-sizing: border-box;
+
+    font-family: "Times New Roman", "Georgia", "Palatino Linotype", "Book Antiqua", serif;
+    font-size: 14px; 
+}
+
+h1 {
+    color: #fdffff;
+    background: linear-gradient(to right, #000080, #1084d0);
+    font-size: 4em;
+    text-align: left;
+    padding: 3px 3px;
+    margin: 2px 0;
+    display: flex;
+    align-items: center;      
+    gap: 15px;
+}
+
+body {
+    background-color: #fdffff
+}
+
+.h1-image{
+    height: 1.15em;
+    width: auto;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    display: block;
+}
+
+.shadow {
+    color: fdffff;
+    text-shadow:
+        3px 3px 1px #818181;
+}
+
+.navbar {
+    background-color: #c3c3c3; /* light gray bar */
+    padding: 4px;
+    display: flex;
+    justify-content: left;
+    gap: 4px; /* space between buttons */
+    border-top: 2px solid #ffffff;  /* light top */
+    border-left: 2px solid #ffffff; /* light left */
+    border-bottom: 2px solid #818181; /* dark bottom */
+    border-right: 2px solid #818181; /* dark right */
+    box-sizing: border-box;
+}
+
+/* NAVBAR BUTTONS */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 4px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    display: inline-block;
+    padding: 4px 12px;
+    background-color: #c3c3c3; /* same as navbar background */
+    color: #000000;
+    text-decoration: none;
+    border-top: 2px solid #ffffff;  /* light top */
+    border-left: 2px solid #ffffff; /* light left */
+    border-bottom: 2px solid #818181; /* dark bottom */
+    border-right: 2px solid #818181; /* dark right */
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+/* HOVER EFFECT */
+.navbar a:hover {
+    background-color: #008080; /* teal highlight */
+    color: #fdffff;
+}
